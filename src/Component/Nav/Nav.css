@@ -1,0 +1,13 @@
+.nav {
+    background-color: #33A5DA;
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    width: 100vw;
+    height: 10vh;
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+}

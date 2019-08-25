@@ -1,0 +1,73 @@
+/* Card */
+.card-body {
+    width: 80vw;
+    height: 65vh;
+    background-color: white;
+
+    font-weight: bolder;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+
+.card-data {
+    height: 60vh;
+    width: 80vw;
+    background-color: azure;   
+    font-weight: lighter; 
+}
+
+.num-counter {
+    justify-content: flex-end;
+}
+
+main > h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.movie-list {
+    margin-left: 10vh;
+    text-align: start;
+    list-style-type: decimal;
+}
+
+/* Footer*/
+.lower-nav {
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.previous-button, .next-button {
+    color: white;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    font-size: 15px;
+}
+
+.inner-lower-nav {
+    width: 15vw;
+    height: 5vh;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit, .delete, .new {
+    color: white;
+    border: none;
+    background-color: #33A5DA;
+    font-size: 20px;
+    border-radius: 10px
+}
